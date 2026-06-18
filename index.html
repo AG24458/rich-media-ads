@@ -15,40 +15,35 @@ body{
 
 h1{
     text-align:center;
-    margin-bottom:40px;
+    margin-bottom:50px;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:30px;
-    max-width:1400px;
+.wrapper{
+    max-width:1200px;
     margin:auto;
 }
 
 .card{
     background:white;
-    padding:20px;
+    padding:24px;
+    margin-bottom:40px;
     border-radius:16px;
     box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
 .card h2{
     margin-top:0;
+    margin-bottom:20px;
     font-size:18px;
 }
 
 iframe{
+    display:block;
     width:100%;
-    height:380px;
+    min-height:260px;
     border:none;
     background:white;
-}
-
-@media(max-width:900px){
-    .grid{
-        grid-template-columns:1fr;
-    }
+    overflow:hidden;
 }
 </style>
 </head>
@@ -57,26 +52,26 @@ iframe{
 
 <h1>Rich Media Ads</h1>
 
-<div class="grid">
+<div class="wrapper">
 
     <div class="card">
         <h2>Baner 1</h2>
-        <iframe src="baner1/baner1/"></iframe>
+        <iframe src="baner1/baner1/" scrolling="no"></iframe>
     </div>
 
     <div class="card">
         <h2>Baner 2</h2>
-        <iframe src="baner2/baner2/"></iframe>
+        <iframe src="baner2/baner2/" scrolling="no"></iframe>
     </div>
 
     <div class="card">
         <h2>Baner 3</h2>
-        <iframe src="baner3/baner3/"></iframe>
+        <iframe src="baner3/baner3/" scrolling="no"></iframe>
     </div>
 
     <div class="card">
         <h2>Baner 4</h2>
-        <iframe src="baner4/baner4/"></iframe>
+        <iframe src="baner4/baner4/" scrolling="no"></iframe>
     </div>
 
 </div>
